@@ -1,9 +1,11 @@
-cd $0
+#gitinit projectFolder repoUrl
+cd $1
 git init
 git add . 
 git commit -m "First commit"
-git remote add origin $1
+git remote add origin $2
 git remote -v
 git push -u origin master
+cd /Users/sarava/Documents/Apps/spring5/workspace-sts/scripts
 
 
